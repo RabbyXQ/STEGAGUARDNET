@@ -109,6 +109,7 @@ class StagNet(nn.Module):
 
 
 # Main function to analyze APK and use StagNet for prediction
+
 def analyze_apk_and_predict(apk_path):
     print(f"Analyzing APK: {apk_path}")
     try:

@@ -319,7 +319,7 @@ def detect_steganography_smali(apk_path):
 
 # Main function for executing all the detection checks
 if __name__ == '__main__':
-    apk_path = 'sample.apk'
+    apk_path = 'b.apk'
 
     # 1. Certificate Obfuscation
     detect_steganography_certificate_fingerprint(apk_path)
