@@ -1,0 +1,9 @@
+Analysis of Entropy Distributions for Benign and Malware Android Applications
+
+The entropy of Android applications can serve as an indicator of obfuscation techniques commonly used in malware. This section presents an analysis of the entropy distributions for benign and malware applications, as visualized in Figures 1 and 2, respectively.
+
+Figure 1 displays the entropy distribution for benign applications. The mean entropy for benign applications is 4.87, with a variance of 0.04 and a standard deviation of 0.19. The distribution exhibits slight negative skewness (-1.64) and relatively high kurtosis (7.14), suggesting that the entropy values are fairly consistent but with some occasional outliers. This reflects the more predictable structure of benign apps, where entropy remains relatively stable.
+
+Figure 2 shows the entropy distribution for malware applications. The mean entropy for malware is slightly lower at 4.84, but the variance (0.06) and standard deviation (0.25) are higher compared to benign apps. The malware data also exhibits negative skewness (-1.55) and kurtosis (6.86), indicating a higher level of irregularity and broader spread in the entropy values. This variation can be attributed to the obfuscation techniques employed by malware, such as code encryption and packing, which introduce more randomness into the application’s structure.
+
+The primary distinction between benign and malware applications lies in the variability of their entropy. Benign applications exhibit a narrow, stable entropy range, while malware applications show more fluctuation, a characteristic that can be leveraged for obfuscation detection. This differential entropy profile provides valuable insights into distinguishing between legitimate and potentially malicious applications, advancing the field of malware detection in Android security.
